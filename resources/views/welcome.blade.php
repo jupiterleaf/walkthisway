@@ -13,8 +13,8 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background-color: #000000;
+                color: #98e1b7;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -22,7 +22,7 @@
             }
 
             .full-height {
-                height: 100vh;
+                height: 30vh;
             }
 
             .flex-center {
@@ -79,18 +79,30 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Walk This Way
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
+                    <a href="">Road Safety</a>
+                    <a href="">Navigation</a>
+                    <a href="">Forum</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
+        </div>
+        <div class="flex-center position-ref full-height">
+            <table>
+                <tr class="content">
+                    <td>1.1</td>
+                    <td>1.2</td>
+                    <td>1.3</td>
+                </tr>
+                <tr>
+                    <td>2.1</td>
+                    <td>2.2</td>
+                    <td>2.3</td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
