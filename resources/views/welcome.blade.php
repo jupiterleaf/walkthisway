@@ -62,6 +62,13 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .table td,.table th{
+                background-color:#2a9055!important
+            }
+            .table tr{
+                font-style: italic;
+            }
         </style>
     </head>
     <body>
@@ -91,8 +98,13 @@
             </div>
         </div>
         <div class="flex-center position-ref full-height">
-            <table>
-                <tr class="content">
+            <table class="table">
+                <tr>
+                    <th>h1</th>
+                    <th>h2</th>
+                    <th>h3</th>
+                </tr>
+                <tr>
                     <td>1.1</td>
                     <td>1.2</td>
                     <td>1.3</td>
